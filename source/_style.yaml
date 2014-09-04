@@ -1,0 +1,10 @@
+$style:
+- _style
+- _style/local
+- verbatim: |-
+    \newcommand\jeolmheader{\jeolmheadertemplate%
+    {СУНЦ МГУ им. М.В. Ломоносова~--- школа им. А.Н. Колмогорова}%
+    {2014-2015}%
+    {Олимпиадная математика
+    \ifx\jeolmgroupname\relax\else\;::\;{\large\strut\jeolmgroupname}\fi}}
+    \let\jeolmgroupname\relax
