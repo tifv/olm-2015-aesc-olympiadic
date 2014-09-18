@@ -1,2 +1,8 @@
 $delegate:
 - arrangement
+- arrangement-combi-geomt
+- vietas-formulas
+
+$group:
+  name: Убегающие
+

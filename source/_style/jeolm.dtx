@@ -1,7 +1,9 @@
 % \iffalse
 %
 %<package|driver>\NeedsTeXFormat{LaTeX2e}[2009/09/24]
+%<*gobble>
 \ProvidesFile{jeolm.dtx}
+%</gobble>
 %<package>\ProvidesPackage{jeolm}
 %<driver>\ProvidesFile{jeolm.drv}
 %
@@ -309,11 +311,11 @@
 \newcommand\jeolmheadertemplate[3]{%
     {\Large\vspace{4ex}}\par%
     \begingroup\small\sffamily%
-    \strut\hfill{\bfseries#1}\hfill\strut\nopagebreak\\%
-    \strut\hfill{\itshape#2}\qquad{#3}%
+        \strut\hfill{\bfseries#1}\hfill\strut\nopagebreak\\%
+        \strut\hfill{\itshape#2}\qquad{#3}%
         \ifx\jeolmdate\relax\else\qquad{\itshape\jeolmdate}\fi%
         \hfill\strut\nopagebreak\\%
-    \rule[1ex]{\textwidth}{0.5pt} %
+        \rule[1ex]{\textwidth}{0.5pt} %
     \endgroup%
     {\vspace{-1ex}\Large\vspace{-4ex}\vspace{-\parskip}}}
 \let\jeolmdate\relax
@@ -426,7 +428,7 @@
 \newlength\subproblem@space@length
 \subproblem@space@length=0.5em
 \newcommand\subproblem@space{\hspace{\subproblem@space@length}\ignorespaces}
-\newcommand\subproblem@format[2]{{\bfseries(\rlap{#1#2)}\phantom{m#2)}}}
+\newcommand\subproblem@format[2]{{\bfseries({\ttfamily#1}#2)}}
 %    \end{macrocode}
 % \end{macro}
 % \end{macro}

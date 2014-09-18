@@ -1,2 +1,7 @@
 $delegate:
-  []
+- painting-and-cutting
+- farey-sequence
+
+$group:
+  name: Догоняющие
+
