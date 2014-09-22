@@ -1,8 +1,17 @@
-$delegate:
-- arrangement
-- arrangement-combi-geomt
-- vietas-formulas
-
 $group:
   name: Убегающие
+
+$delegate[-miscellany]:
+- arrangement
+- arrangement-combinatorial-geometry
+- vietas-formulas
+- vietas-formulas-more
+
+$matter[miscellany]:
+- - arrangement
+- - arrangement-combinatorial-geometry
+- - vietas-formulas
+- - vietas-formulas-more
+$build$options[miscellany]:
+  date: null
 

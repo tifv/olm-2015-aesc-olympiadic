@@ -1,7 +1,15 @@
-$delegate:
-- painting-and-cutting
-- farey-sequence
-
 $group:
   name: Догоняющие
+
+$delegate[-miscellany]:
+- painting-and-cutting
+- farey-sequence
+- game
+
+$build$matter[miscellany]:
+- - painting-and-cutting
+- - farey-sequence
+- - game
+$build$options[miscellany]:
+  date: null
 
