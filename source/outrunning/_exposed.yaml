@@ -6,12 +6,16 @@ $delegate[-miscellany]:
 - arrangement-combinatorial-geometry
 - vietas-formulas
 - vietas-formulas-more
+- geometry-1
+- inscribed-angles
 
 $matter[miscellany]:
 - - arrangement
 - - arrangement-combinatorial-geometry
 - - vietas-formulas
 - - vietas-formulas-more
+- - geometry-1
+- - inscribed-angles
 $build$options[miscellany]:
   date: null
 

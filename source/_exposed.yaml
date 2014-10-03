@@ -2,3 +2,12 @@ $delegate:
 - olympiad
 - approaching
 - outrunning
+
+regular:
+  $build$able: false
+  $delegate:
+  - /approaching
+  - /outrunning
+  - delegate: .[miscellany]
+    condition: -miscellany
+

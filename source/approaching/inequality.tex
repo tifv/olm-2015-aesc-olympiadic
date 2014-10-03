@@ -1,0 +1,125 @@
+% $date: 2014-10-01
+
+\section*{Неравенства}
+
+% $authors:
+% - Юлий Тихонов
+
+% $build$matter[print]: [[.], [.]]
+% $build$matter[tiled4]: [[.], [.], [.], [.]]
+
+\claim{Неравенство между средним арифметическим и средним геометрическим}
+Пусть $a_1, a_2, \ldots, a_n$~--- положительные числа.
+Тогда
+\[
+    \sqrt[n]{\mathstrut
+        a_1 \cdot a_2 \cdot \ldots \cdot a_n
+    }
+\leq
+    \frac{
+        a_1 + a_2 + \ldots + a_n
+    }{n}
+\leq
+    \sqrt{\frac{
+        a_1^2 + a_2^2 + \ldots + a_n^2
+    }{n}}
+\;,\]
+причем равенства достигаются только в случае $a_1 = a_2 = \ldots = a_n$.
+
+\begin{problems}
+
+\item
+Докажите неравенства для $x, y > 0$.
+\emph{Пункты сдаются одновременно.}
+\\[0.25ex]
+\sp $1 + x \geq 2 \sqrt{x}$;
+\quad
+\sp $0.5 (x^2 + y^2) \geq x y$;
+\quad
+\sp $2 x + 3 / 8 \geq \sqrt[4]{x}$.
+\\[0.25ex]
+Когда достигаются равенства?
+
+\item
+Докажите, что если произведение двух положительных чисел больше их суммы, то
+сумма больше четырех.
+
+\item
+Решите уравнение\enspace
+$x^4 + y^4 + 2 = 4 x y$.
+
+\item
+Докажите неравенство для положительных $a$, $b$, $c$:
+\\[0.3ex]
+\sp $a b + b c + a c \leq a^2 + b^2 + c^2$;
+\qquad
+\sp $(a + b) (b + c) (a + c) \geq 8 a b c$.
+
+\item
+Что больше:\enspace
+$\sqrt{2013} + \sqrt{2015}$\enspace
+или\enspace
+$2 \sqrt{2014}$?
+
+\item
+Для положительных $a$ и $b$ докажите, что\enspace
+\(
+    (a + b) \sqrt{(a + b) / 2}
+\geq
+    a \sqrt{b} + b \sqrt{a}
+.\)
+
+\end{problems}
+
+\subsection*{Smoothing}
+
+\begin{problems}
+
+\item
+Сумма положительных чисел $a_1$, $a_2$,~$\ldots$, $a_n$ равна $1$.
+Докажите, что
+\\[0.3ex]
+\sp
+\(
+    (1 + a_1) \cdot (2 + a_2)
+    \cdot \ldots \cdot
+    (n + a_n)
+\leq
+    2 \cdot n!
+\)\;;
+\\[1ex]
+\sp
+\(
+    \dfrac{
+        (1 - x_1) \cdot (1 - x_2) \cdot \ldots \cdot (1 - x_n)
+    }{
+        x_1 \cdot x_2 \cdot \ldots \cdot x_n
+    }
+\geq
+    (n - 1)^n
+\)\;.
+
+\item
+Пусть $x_1 + x_2 + \ldots + x_n = \frac{1}{2}$, а~все $x_i$~---
+неотрицательные.
+Докажите, что
+\[
+    \frac{1 - x_1}{1 + x_1} \cdot \frac{1 - x_2}{1 + x_2}
+    \cdot \ldots \cdot
+    \frac{1 - x_n}{1 + x_n}\geqslant\frac{1}{3}.
+\]
+
+\item\emph{Неравенство Гюйгенса.}
+Пусть $a_1$, $a_2$,~$\ldots$, $a_n$~--- положительные числа, $t$~--- их~среднее
+геометрическое.
+Докажите неравенство
+\[
+    \sqrt[n]{
+        (1 + a_1) \cdot (1 + a_2) \cdot \ldots \cdot (1 + a_n)
+    }
+\geq
+    1 + \sqrt[n]{a_1 \cdot a_2 \cdot \ldots \cdot a_n}
+.\]
+
+\end{problems}
+

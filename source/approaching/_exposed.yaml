@@ -5,11 +5,15 @@ $delegate[-miscellany]:
 - painting-and-cutting
 - farey-sequence
 - game
+- pick-theorem
+- invariant
+- inequality
 
 $build$matter[miscellany]:
 - - painting-and-cutting
-- - farey-sequence
 - - game
+- - invariant
+- - inequality
 $build$options[miscellany]:
   date: null
 
