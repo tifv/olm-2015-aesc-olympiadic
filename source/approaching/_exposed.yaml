@@ -8,12 +8,17 @@ $delegate[-miscellany]:
 - pick-theorem
 - invariant
 - inequality
+- inequality-more
+- right-triangle
+- number-theory-1
 
 $build$matter[miscellany]:
-- - painting-and-cutting
 - - game
 - - invariant
 - - inequality
+- - inequality-more
+- - right-triangle
+- - number-theory-1
 $build$options[miscellany]:
   date: null
 
