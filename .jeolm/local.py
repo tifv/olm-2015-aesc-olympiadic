@@ -13,7 +13,7 @@ class Driver(jeolm.driver.regular.Driver):
             return super().select_outname(target, metarecord, date=date)
         outname_pieces = []
         for part in group_path.parts:
-            outname_pieces.append(part.upper())
+            outname_pieces.append(part)
         if isinstance(date, datetime.date):
             outname_pieces.append(date.isoformat())
         for part in target.path.parts[len(group_path.parts):]:
