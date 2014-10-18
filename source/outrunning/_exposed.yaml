@@ -8,20 +8,15 @@ $delegate[-miscellany]:
 - vietas-formulas-more
 - geometry-1
 - inscribed-angles
-- geometry-more
+- geometry-1-more
 - count-twice
 - correspondence
+- correspondence-more
 
 $matter[miscellany]:
-- - arrangement
-- - arrangement-combinatorial-geometry
-- - vietas-formulas
-- - vietas-formulas-more
-- - geometry-1
-- - inscribed-angles
-- - geometry-more
 - - count-twice
 - - correspondence
+- - correspondence-more
 $build$options[miscellany]:
   date: null
 
