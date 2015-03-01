@@ -7,18 +7,46 @@ $delegate[-miscellany]:
 - game
 - pick-theorem
 - invariant
+- inequality[full-version]
 - inequality
 - inequality-more
 - right-triangle
+- number-theory-1[full-version]
 - number-theory-1
+- number-theory-1-more
+- mixture-1
+- inscribed-angles
+- number-theory-2-chinese-remainder-theorem
+- number-theory-simple
+- number-theory-3-euclids-algorithm
+- number-theory-4-fermats-little-theorem
+- graph-1
+- number-theory-5-eulers-function-and-theorem
+- training-1
+- training-2
+- training-combinatorics-numeric
+- geometry-mixture[full-version]
+- geometry-mixture
+- geometry-mixture-more
+- algebra-mixture[full-version]
+- algebra-mixture
+- algebra-mixture-more
+- combinatorics-mixture[full-version]
+- combinatorics-mixture
+- combinatorics-mixture-more
+- functional-equation[full-version]
+- functional-equation
+- functional-equation-more
+- signed-angles[full-version]
+- quadratic-trinomial
 
-$build$matter[miscellany]:
-- - game
-- - invariant
-- - inequality
-- - inequality-more
-- - right-triangle
-- - number-theory-1
-$build$options[miscellany]:
-  date: null
+training-1:
+  $matter:
+  - - ../training-1-g10
+  - - ../training-1-g11
+
+training-2:
+  $matter:
+  - - ../training-2-g10
+  - - ../training-2-g11
 

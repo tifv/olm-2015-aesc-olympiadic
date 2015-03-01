@@ -11,12 +11,25 @@ $delegate[-miscellany]:
 - geometry-1-more
 - count-twice
 - correspondence
-- correspondence-more
-
-$matter[miscellany]:
-- - count-twice
-- - correspondence
-- - correspondence-more
-$build$options[miscellany]:
-  date: null
+- correspondence-and-count-twice-more
+- count-twice-more
+- exponents
+- number-theory-simple
+- combinatorial-geometry-extreme-principle
+- combinatorial-geometry-convex-hull
+- combinatorial-geometry-dirichlet
+- radical-axis
+- radical-axis-more
+- homothety
+- training-1-g10
+- training-1-g11
+- stereometrising
+- digits
+- algebraic-transformations
+- quadratic-trinomial
+- region-g9-mixture
+- inequality-cauchy-and-more
+- inequality-rearrangement
+- inequality-mixture
+- constructives
 

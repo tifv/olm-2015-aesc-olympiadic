@@ -1,0 +1,108 @@
+% $date: 2015-02-13
+
+\section*{Функциональные уравнения}
+
+% $authors:
+% - Тихонов Юлий
+% - Виктор Трещёв
+
+% $build$matter[print]: [[.], [.], [.], [.]]
+% $build$style[print]:
+% - .[tiled4,-print]
+
+% $build$matter[full-version,print]: [[.], [.]]
+% $build$style[print]:
+% - .
+
+% $matter[full-version,-no-header]:
+% - .[header,multidate]
+% $matter[full-version]:
+% - .[-full-version]
+% - ../functional-equation-more[contained]
+
+Найдите все функции $f$, удовлетворяющие уравнению (если не указано иное).
+
+\begin{problems}
+
+\item
+$2f(x) + f(1-x) = x^2$, где
+$f \colon \mathbb{R} \to \mathbb{R}$.
+
+\item
+$f(x) + 2f(1/x) = 3x$, где
+$f \colon \mathbb{R} \setminus \{0\} \to \mathbb{R}$.
+
+\item
+$f(x + y) + f(x - y) = 2f(x)\cos y$, где
+$f \colon \mathbb{R} \to \mathbb{R}$.
+
+\item
+Существуют ли функции
+$f, g \colon \mathbb{R} \to \mathbb{R}$
+такие, что при любых $x$
+\\
+\sp
+$f(g(x)) = x^2$, $g(f(x)) = x^3$?
+\quad\sp
+$f(g(x)) = x^2$, $g(f(x)) = x^4$?
+
+\item
+Найдите все
+$f \colon \mathbb{Q} \to \mathbb{Q}$,
+такиеm что
+$f(1) = 2$ и
+$f(x y) = f(x) f(y) - f(x + y) + 1$
+при всех $x, y \in \mathbb{Q}$.
+
+\item
+Дано натуральное число $n$.
+Найдите все непрерывные $f \colon [0, 1] \to \mathbb{R}$ такие, что
+$f(0) = 0$, $f(1) = 1$,
+\(
+    \underbrace{
+        f(f(\ldots\,f
+    }_{n}
+    (x)\ldots))
+=
+    x
+\)
+для любого $x \in [0,1]$.
+
+\item
+Найти все непрерывные $f \colon \mathbb{R} \to \mathbb{R}$, такие что
+\(
+    f(x + y)
+=
+    f(x) + f(y) + x y (x + y)
+\).
+
+\item
+Найти все функции $f \colon \mathbb{Q} \to \{-1, 1\}$ такие, что равенство
+$f(x) \cdot f(y) = -1$
+выполнено для всех $x \neq y \in \mathbb{Q}$ при любом из условий
+$x + y = 0$, $x + y = 1$, $x \cdot y = 1$.
+
+\item
+Дано $n \in \mathbb{N}$.
+Определенная для точек плоскости вещественнозначная функция такова, что
+$f(A_1) + f(A_2) + \ldots + f(A_n) = 0$ выполняется для любого правильного
+$n$-угольника $A_1 A_2 \ldots A_n$.
+Найдите все такие функции.
+
+\itemx{*}
+Докажите, что функция $f \colon \mathbb{R} \to \mathbb{R}$, удовлетворяющая одному из
+следующих двух тождеств:
+\(
+    f(x) + f(y)
+\equiv
+    f(x + y)
+\),
+\(
+    f(x \cdot y + x + y)
+\equiv
+    f(x \cdot y) + f(x) + f(y)
+\),
+удовлетворяет и другому.
+
+\end{problems}
+

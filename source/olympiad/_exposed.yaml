@@ -1,3 +1,6 @@
+$group:
+  name: null
+
 $delegate:
 - intro-1
 - intro-1[solutions]
